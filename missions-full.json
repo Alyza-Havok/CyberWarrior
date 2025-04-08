@@ -1,0 +1,170 @@
+[
+  {
+    "title": "Incident Classification",
+    "objective": "Identify and classify cybersecurity incidents based on type and severity.",
+    "task": "Study NIST 800-61 categories and apply them to 5 scenarios.",
+    "tool": "NIST 800-61 Guide",
+    "challenge": "Classify 5 incidents: phishing, DDoS, insider threat, malware, unauthorized access.",
+    "reward": 10
+  },
+  {
+    "title": "Phishing Indicators",
+    "objective": "Recognize phishing signatures in emails and web traffic.",
+    "task": "Analyze 3 emails for spoofed domains, urgency language, and malicious links.",
+    "tool": "Email Header Analyzer",
+    "challenge": "Label key phishing indicators in 3 examples.",
+    "reward": 15
+  },
+  {
+    "title": "Initial Log Triage",
+    "objective": "Conduct basic triage of Windows/Linux log events.",
+    "task": "Filter noisy logs and identify anomalies using Sysmon.",
+    "tool": "Sysmon & Event Viewer",
+    "challenge": "Identify 3 suspicious events in raw logs.",
+    "reward": 15
+  },
+  {
+    "title": "Email Header Analysis",
+    "objective": "Trace phishing email source using header inspection.",
+    "task": "Evaluate SPF/DKIM/DMARC validation.",
+    "tool": "MxToolbox",
+    "challenge": "Find the forged source in 2 email headers.",
+    "reward": 15
+  },
+  {
+    "title": "Network Traffic Monitoring",
+    "objective": "Monitor and analyze PCAP files for threats.",
+    "task": "Use a simulated PCAP viewer to scan traffic.",
+    "tool": "Wireshark (Simulated)",
+    "challenge": "Spot beaconing or exfiltration behavior.",
+    "reward": 15
+  },
+  {
+    "title": "DNS & URL Reputation Checks",
+    "objective": "Use OSINT tools to validate domain reputation.",
+    "task": "Check 5 domains through reputation services.",
+    "tool": "VirusTotal, URLScan.io, AbuseIPDB",
+    "challenge": "Flag 3 high-risk URLs.",
+    "reward": 15
+  },
+  {
+    "title": "Incident Ticket Documentation",
+    "objective": "Log incident details in proper documentation format.",
+    "task": "Write up 2 IR tickets from past examples.",
+    "tool": "Basic IR Template",
+    "challenge": "Submit a sample ticket with summary, timeline, and response.",
+    "reward": 15
+  },
+  {
+    "title": "Threat Intelligence Basics",
+    "objective": "Ingest and analyze threat feeds for IOC extraction.",
+    "task": "Pull data from 2 public feeds.",
+    "tool": "AlienVault OTX",
+    "challenge": "Extract 5 IOCs from threat data.",
+    "reward": 15
+  },
+  {
+    "title": "Lateral Movement Detection",
+    "objective": "Recognize signs of credential theft and lateral movement.",
+    "task": "Use logs and alerts to trace pivoting behavior.",
+    "tool": "Windows Logs & Zeek",
+    "challenge": "Detect 2 examples of lateral movement.",
+    "reward": 15
+  },
+  {
+    "title": "Privilege Escalation Triggers",
+    "objective": "Identify signs of privilege escalation.",
+    "task": "Analyze two compromised system logs.",
+    "tool": "Event Viewer + MITRE ATT&CK",
+    "challenge": "Detect escalation methods (token theft, Sudo abuse).",
+    "reward": 15
+  },
+  {
+    "title": "Malware File Detection",
+    "objective": "Use hashes and scanners to flag known malware.",
+    "task": "Inspect 3 files and validate against hash databases.",
+    "tool": "SHA256 Hashing Tool, VirusTotal",
+    "challenge": "Report 2 infected files.",
+    "reward": 15
+  },
+  {
+    "title": "Host Isolation Procedures",
+    "objective": "Decide and document when to isolate compromised systems.",
+    "task": "Review 3 simulated alerts and choose response.",
+    "tool": "IR Playbook",
+    "challenge": "Justify isolation decisions in each scenario.",
+    "reward": 15
+  },
+  {
+    "title": "Command Line Forensics",
+    "objective": "Gather forensics data from the command line.",
+    "task": "Run queries to inspect logs, user history, and configs.",
+    "tool": "Linux CLI (Simulated)",
+    "challenge": "Detect unauthorized user behavior.",
+    "reward": 15
+  },
+  {
+    "title": "Memory Dump Inspection",
+    "objective": "Detect malware or suspicious behavior in memory snapshots.",
+    "task": "Use a basic Volatility-based viewer.",
+    "tool": "Volatility (Simulated)",
+    "challenge": "Find suspicious PID and DLL injection.",
+    "reward": 15
+  },
+  {
+    "title": "Exploit Behavior Mapping",
+    "objective": "Map observed actions to known exploit techniques.",
+    "task": "Match behaviors to MITRE ATT&CK IDs.",
+    "tool": "ATT&CK Navigator",
+    "challenge": "Identify 3 exploitation behaviors in logs.",
+    "reward": 15
+  },
+  {
+    "title": "IDS Alert Analysis",
+    "objective": "Validate and triage intrusion detection alerts.",
+    "task": "Analyze 4 Suricata alerts.",
+    "tool": "Suricata/Snort",
+    "challenge": "Mark 2 true positives, 1 false positive.",
+    "reward": 15
+  },
+  {
+    "title": "Endpoint Monitoring Setup",
+    "objective": "Simulate setting up and monitoring an EDR platform.",
+    "task": "Configure baseline and alerting rules.",
+    "tool": "EDR Simulator",
+    "challenge": "Respond to 2 endpoint alerts.",
+    "reward": 15
+  },
+  {
+    "title": "Escalation Chain Simulation",
+    "objective": "Practice proper escalation procedures.",
+    "task": "Read and respond as Tier 1 analyst escalating to Tier 2.",
+    "tool": "Escalation Workflow",
+    "challenge": "Format an escalation email summary.",
+    "reward": 15
+  },
+  {
+    "title": "Lessons Learned Report",
+    "objective": "Write a final report summarizing containment and recovery.",
+    "task": "Use prior simulated case to compose closure report.",
+    "tool": "IR Report Template",
+    "challenge": "Complete all key sections (summary, timeline, lessons).",
+    "reward": 20
+  },
+  {
+    "title": "Live Simulation Replay",
+    "objective": "Handle a full incident with real-time decisions.",
+    "task": "Go through a 3-part incident story with branching paths.",
+    "tool": "Built-in simulator (text-based)",
+    "challenge": "Make all correct decisions under time pressure.",
+    "reward": 25
+  },
+  {
+    "title": "Final Evaluation & Debrief",
+    "objective": "Review all skills and export certificate + cover letter.",
+    "task": "Complete final assessment and reflect on progress.",
+    "tool": "PDF Builder + Cover Letter Engine",
+    "challenge": "Download and save your final documents.",
+    "reward": 30
+  }
+]
