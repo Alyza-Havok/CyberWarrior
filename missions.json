@@ -1,10 +1,1 @@
-[
-  {
-    "title": "Incident Classification",
-    "objective": "Identify and classify cybersecurity incidents based on type and severity.",
-    "task": "Study NIST 800-61 categories and apply them to 5 scenarios.",
-    "tool": "NIST 800-61 Guide",
-    "challenge": "Classify 5 incidents: phishing, DDoS, insider threat, malware, unauthorized access.",
-    "reward": 10
-  }
-]
+// Dummy content for missions.json
